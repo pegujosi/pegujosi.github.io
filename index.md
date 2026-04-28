@@ -31,7 +31,7 @@ Data Analyst with a strong mathematical background, specializing in process audi
 
 ### 3. Sales Executive Dashboard 📈
 **Problem:** Stakeholders lacked real-time visibility into shop-floor KPIs, leading to delayed decision-making and difficulty in identifying production and sales bottlenecks.
-**Solution:** Developed an end-to-end Power BI dashboard by integrating SQL and Python. This solution centralizes manufacturing data to track critical metrics.
+**Solution:** Developed an end-to-end Power BI dashboard (Tableau dashboard also available) by integrating SQL and Python. This solution centralizes manufacturing data to track critical metrics.
 * [View Project Showcase](https://github.com/pegujosi/stellantis-sales-audit-engine)
 
 ---
