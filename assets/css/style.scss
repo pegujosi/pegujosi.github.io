@@ -2,38 +2,48 @@
 ---
 @import "{{ site.theme }}";
 
-/* Forzar que el contenedor principal ocupe casi toda la pantalla */
+/* REGLAS DE ALTO IMPACTO */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .wrapper {
-  max-width: 1200px !important; /* Aumentamos de los 600px que trae por defecto */
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 90% !important; /* Ocupa el 90% de la pantalla */
+  width: 1200px !important;   /* O un ancho máximo generoso */
+  margin: 0 auto !important;
+  display: block !important;
 }
 
-/* Ajustar el encabezado (la columna de la izquierda) */
 header {
-  width: 280px !important;
-  float: left;
-  position: relative;
+  width: 25% !important;
+  position: relative !important;
+  float: left !important;
 }
 
-/* Ajustar la sección de contenido (la columna de la derecha) */
 section {
-  width: calc(100% - 330px) !important; /* Toma el resto del espacio disponible */
-  float: right;
-  padding-left: 20px;
+  width: 70% !important;
+  float: right !important;
+  border-left: 1px solid #eee; /* Opcional: una línea sutil de división */
+  padding-left: 40px !important;
+  box-sizing: border-box !important;
 }
 
-/* Mantener el justificado que ya lograste */
 p {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
 
-/* Corrección para que en celulares no se vea mal */
+/* Ajuste para móviles para que no se rompa */
 @media screen and (max-width: 760px) {
+  .wrapper {
+    width: 95% !important;
+  }
   header, section {
-    float: none !important;
     width: 100% !important;
-    padding: 0;
+    float: none !important;
+    border: none !important;
+    padding-left: 0 !important;
   }
 }
