@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme
 
 title: Joel Silverio Perez Guerrero | Portfolio
-description: Math & Data Analyst especializado en el sector automotriz.
+description: Math & Data Analyst.
 google_analytics: # Deja esto vacío por ahora
 show_downloads: false
