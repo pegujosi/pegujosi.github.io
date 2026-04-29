@@ -41,5 +41,5 @@ Data Analyst with a strong mathematical background, I am a Mathematician with 10
 ---
 
 ## 📫 Contact
-* **LinkedIn:** [Joel Silverio Perez Guerrero](www.linkedin.com/in/joel-silverio-pérez-guerrero)
+* **LinkedIn:** [Joel Silverio Perez Guerrero](https://www.linkedin.com/in/joel-silverio-pérez-guerrero)
 * **Email:** silverio.guerrero.p@gmail.com
