@@ -1,0 +1,25 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* 1. Ampliar el ancho del contenedor para aprovechar los laterales */
+.wrapper {
+  max-width: 1080px; /* Ajuste ideal para pantallas modernas */
+  margin: 0 auto;
+}
+
+/* 2. Justificar el texto en todos los párrafos del contenido principal */
+section p {
+  text-align: justify;
+  text-justify: inter-word; /* Mejora la distribución de espacios */
+  line-height: 1.6;        /* Mejora la legibilidad */
+}
+
+/* Ajuste opcional: centrar un poco más el encabezado en pantallas grandes */
+header {
+  width: 260px;
+}
+
+section {
+  width: calc(100% - 300px);
+}
